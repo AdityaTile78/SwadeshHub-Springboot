@@ -1,0 +1,114 @@
+/* /* ProductForm.css
+.product-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.label-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.category-group,
+.subcategory-group {
+  flex: 1;
+  margin-right: 10px; 
+}*/
+
+/* input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 4px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}  */
+
+/* ProductForm.css */
+
+.product-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4; /* Background color */
+  border-radius: 8px;
+}
+
+.product-form input[type="text"],
+.product-form textarea,
+.product-form select,
+.product-form input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 4px;
+}
+
+.product-form button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.product-form label.btn {
+  width: 100%;
+  text-align: left;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.product-table table {
+  width: 100%;
+}
+
+.product-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff; /* Cell background color */
+}
+
+.product-table td:first-child {
+  width: 30%; /* Adjust width as needed */
+}
+
+/* .product-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f4f4f4; 
+  background-image: url('../Images/Background1.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+} 
+*/

@@ -1,0 +1,95 @@
+/* ContactUs.css */
+/* GlobalStyles.css or App.css or any main/global stylesheet */
+
+body {
+   
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  color:black;
+}
+h1, h2, h3, h4, h5, h6 {
+
+  text-align: left; 
+  margin-top: -10px;    
+  margin-bottom: 0; 
+  
+}
+
+.contact-us-container {
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* background: rgb(210,227,200); */
+ 
+    color: #fff;
+  }
+  
+  .contact-us-container h1 {
+    font-size: 2rem;
+    margin-top: -50px;
+    margin-bottom: 20px;
+    color: #000;
+  }
+  
+  .contact-form {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    /* background: rgb(100,204,197); */
+     /* background: radial-gradient(circle, rgba(100,204,197,1) 0%, rgba(0,0,0,1) 100%); */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #FFEAC7, #ffffff,#D1FFC7);
+  }
+  
+  /* Add more styles as needed for your form elements */
+  
+  .contact-form label {
+    display: block;
+    color:#000;
+    margin-bottom: 8px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-form button {
+    background-color: #138808;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0e6305;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .contact-form {
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contact-us-container h1 {
+      font-size: 1.5rem;
+    }
+  }

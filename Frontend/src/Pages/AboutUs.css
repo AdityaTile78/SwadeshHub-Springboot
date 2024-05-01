@@ -1,0 +1,72 @@
+/* AboutUs.css */
+body {
+  margin: 0;
+  padding: 0;
+}
+.about-us-container {
+    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px; /* Adjust as needed */
+  margin: 0 auto;
+  }
+  
+  
+    .header-section {
+      width: 100%;
+    }
+  
+  
+  .fullpage-image {
+    width: 100%;
+    height: auto;
+    margin: 0 20px;
+    margin-top:30px;
+  }
+  
+
+
+  .header-text {
+    margin-top: 15px;
+    color: #666;
+    font-size: 16px;
+    margin-left: 20px; /* Adjust margin-left as needed */
+    margin-right: 20px; /* Adjust margin-right as needed */
+  }
+  
+  .header-text p {
+    margin-top: 15px; /* Adjust as needed */
+    color: #666;
+    font-size: 16px; /* Adjust as needed */
+  }
+  
+  .team-section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  .philosophy-heading {
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+} 
+  
+  /* Add more styles as needed */
+  
+  @media (min-width: 768px) {
+    .team-member-card {
+      max-width: 200px; /* Adjust as needed */
+    }
+  }
+  @media (max-width: 767px) {
+    .team-member-card {
+      flex: 0 0 calc(33.333% - 20px); /* Adjust as needed */
+      margin: 10px; /* Adjust as needed */
+    }
+  }

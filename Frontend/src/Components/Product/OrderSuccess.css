@@ -1,0 +1,37 @@
+.order-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .order-card {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px;
+    transition: transform 0.3s ease;
+  }
+  
+  .order-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-title {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .card-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  
+  .card-label {
+    color: #666;
+  }
+  
+  .card-value {
+    color: #000;
+  }
+  

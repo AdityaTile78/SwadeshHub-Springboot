@@ -1,0 +1,52 @@
+/* Philosophy.css */
+
+.philosophy-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+ 
+  
+  .philosophy-card {
+    text-align: center;
+    width: calc(50% - 20px); /* Two cards per row on smaller screens, adjust as needed */
+    margin: 0; /* No margin */
+    margin-bottom: 20px; /* Space between cards */
+  }
+  
+ 
+  .card-image {
+    width: 100%; /* Ensure the image takes up the full width of the circular container */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 50%; /* Make the image circular */
+    transition: transform 0.5s ease-in-out; /* Add animation transition property */
+    border: 4px solid #8bbe39;
+    width: 150px; 
+    height: 150px; animation: moveBackAndForth 1s infinite alternate;
+}
+  
+@keyframes moveBackAndForth {
+    to {
+      transform: translateX(10px); /* Move to the right */
+    }
+  }
+  
+  .philosophy-card h2 {
+    margin-top: 30px;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .philosophy-card p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 8px;
+  }
+  
+  
+  @media (min-width: 768px) {
+    .philosophy-card {
+      width: calc(25% - 20px); /* Four cards per row on larger screens */
+    }
+  }
+  

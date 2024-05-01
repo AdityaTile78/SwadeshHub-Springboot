@@ -1,0 +1,39 @@
+/* SellerViewProduct.css */
+
+/* Style for the outer container */
+.seller-view-product {
+    padding: 20px;
+    background: linear-gradient(to right, #FFEAC7, #ffffff, #D1FFC7);
+  }
+  
+  /* Style for the product table */
+  .product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Style for table header */
+  .product-table th {
+    background-color: #f2f2f2;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Style for table data */
+  .product-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Style for table rows */
+  .product-table tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style for buttons */
+  .btn-group {
+    display: flex;
+    gap: 5px;
+  }
+  

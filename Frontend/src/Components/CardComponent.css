@@ -1,0 +1,55 @@
+/* .home__prom-card {
+    position: relative;
+    background-color: black;
+
+    > .home__prom-background {
+        position: absolute;
+        top: 0;left: 0;
+        z-index:0;
+
+        height: 100%;
+        width: 100%;
+
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        transition: opacity .3s ease-in-out;
+    }
+
+    > h2, > p, > .home__prom-card_price {
+        z-index:2;
+    }
+    &:hover {
+        
+        > .home__prom-background {
+            opacity: .6;
+        }
+
+        > h2, > p {
+            opacity: 1;
+        }
+
+    }
+
+} */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  
+  .card {
+    transition: transform 0.3s ease-in-out;
+    background: linear-gradient(to right, #FFEAC7, #ffffff,#D1FFC7);
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
